@@ -72,3 +72,14 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+WindowsBuilds/Engine/Config/StagedBuild_Showcase_Dmytro.ini
+WindowsBuilds/Engine/Content/Renderer/TessellationTable.bin
+WindowsBuilds/Engine/Content/Slate/Cursor/invisible.cur
+WindowsBuilds/Manifest_NonUFSFiles_Win64.txt
+WindowsBuilds/Manifest_UFSFiles_Win64.txt
+WindowsBuilds/Showcase_Dmytro.zip
+WindowsBuilds/Showcase_Dmytro/Content/Paks/global.ucas
+WindowsBuilds/Showcase_Dmytro/Content/Paks/global.utoc
+WindowsBuilds/Showcase_Dmytro/Content/Paks/Showcase_Dmytro-Windows.pak
+WindowsBuilds/Showcase_Dmytro/Content/Paks/Showcase_Dmytro-Windows.ucas
+WindowsBuilds/Showcase_Dmytro/Content/Paks/Showcase_Dmytro-Windows.utoc
