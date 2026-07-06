@@ -5,25 +5,6 @@
 #include "CoreMinimal.h"
 #include "FootballData.generated.h"
 
-// Enumeration for Teams
-UENUM(BlueprintType)
-enum class ETeams : uint8
-{        
-	None,
-	TeamBlue,    
-	TeamRed     
-};
-
-// Enumeration for Ball States
-UENUM(BlueprintType)
-enum class EBallStates : uint8
-{
-	Free,
-	GrabbedByPlayer,
-	GrabbedByGoalKeeper
-};
-
-
 // Enumeration for Match States Handled in GameMode
 UENUM(BlueprintType)
 enum class EMatchStates : uint8
