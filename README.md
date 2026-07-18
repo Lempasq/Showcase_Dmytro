@@ -5,7 +5,7 @@
 
 A competitive 1v1 football prototype focused on server-authoritative gameplay, responsive physics interactions, and reliable network replication.
 
-[![Multiplayer football gameplay](Docs/Images/readme/hero-gameplay.jpg)](Docs/Images/hero-gameplay.png)
+[![Multiplayer football gameplay](Docs/Images/readme/hero-gameplay.jpg)](Docs/Images/readme/hero-gameplay.jpg)
 
 ## Highlights
 
@@ -36,21 +36,21 @@ Click any image to open the full-resolution graph.
 
 Server RPCs validate shooting and dribbling requests. Ball possession uses a Physics Handle, while the kick function selects a valid nearby ball component and applies the configured impulse.
 
-[![Server RPCs for shooting and dribbling](Docs/Images/readme/bp_shooting_dribbling.png)](Docs/Images/bp_shooting_dribbling.png)
+[![Server RPCs for shooting and dribbling](Docs/Images/readme/bp_shooting_dribbling.png)](Docs/Images/readme/bp_shooting_dribbling.png)
 
-[![Ball selection and kick impulse](Docs/Images/readme/bp_shooting.png)](Docs/Images/bp_shooting.png)
+[![Ball selection and kick impulse](Docs/Images/readme/bp_shooting.png)](Docs/Images/readme/bp_shooting.png)
 
 ### Match state and scoreboard
 
 Gameplay Tags route each goal to the correct team score. RepNotify publishes the updated value to connected clients and presentation systems.
 
-[![Gameplay Tag based score update with RepNotify](Docs/Images/readme/bp_score_state.png)](Docs/Images/bp_score_state.png)
+[![Gameplay Tag based score update with RepNotify](Docs/Images/readme/bp_score_state.png)](Docs/Images/readme/bp_score_state.png)
 
 ### Predictive goalkeeper AI
 
 The goalkeeper finds the active ball, predicts its future position from velocity, and constrains the target point to its navigable area.
 
-[![Goalkeeper target prediction](Docs/Images/readme/bp_goalkeeper_ai.png)](Docs/Images/bp_goalkeeper_ai.png)
+[![Goalkeeper target prediction](Docs/Images/readme/bp_goalkeeper_ai.png)](Docs/Images/readme/bp_goalkeeper_ai.png)
 
 ## Run locally
 
