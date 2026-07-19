@@ -7,9 +7,7 @@ A competitive 1v1 football prototype focused on server-authoritative gameplay, r
 
 ## Gameplay demo
 
-[![Watch the 47-second two-client multiplayer demo](Docs/Images/readme/hero-gameplay.jpg)](Docs/Videos/readme/Showcase_Dmytro_Preview.mp4)
-
-**[▶ Watch the 47-second two-client multiplayer demo](Docs/Videos/readme/Showcase_Dmytro_Preview.mp4)**
+https://github.com/user-attachments/assets/080a7205-3fff-4634-81fb-e8ac2740f767
 
 The two-client capture shows both host and remote-client goals, server-authoritative scoring, replicated match state, synchronized HUD updates, celebrations, and round resets.
 
