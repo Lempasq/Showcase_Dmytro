@@ -11,13 +11,13 @@ A competitive 1v1 football prototype focused on server-authoritative gameplay, r
 
 **[▶ Watch the 47-second two-client multiplayer demo](Docs/Videos/readme/Showcase_Dmytro_Preview.mp4)**
 
-Host and remote client each score in a live listen-server session, demonstrating server-authoritative scoring, replicated match state, synchronized HUD updates, celebration, and round reset.
+The two-client capture shows both host and remote-client goals, server-authoritative scoring, replicated match state, synchronized HUD updates, celebrations, and round resets.
 
 ## Highlights
 
 - Replicated shooting and ball possession with server-side validation.
 - Complete match loop: lobby, team assignment, scoring, celebration, and round reset.
-- Physics Handle based ball control and object pooling.
+- Physics Handle-based ball control and object pooling.
 - Event-driven HUD and scoreboard updates without Tick-based polling.
 - Predictive goalkeeper AI with configurable reaction time.
 - Hybrid C++ and Blueprint architecture.
