@@ -5,7 +5,13 @@
 
 A competitive 1v1 football prototype focused on server-authoritative gameplay, responsive physics interactions, and reliable network replication.
 
-[![Multiplayer football gameplay](Docs/Images/readme/hero-gameplay.jpg)](Docs/Images/hero-gameplay.png)
+## Gameplay demo
+
+[![Watch the 47-second two-client multiplayer demo](Docs/Images/readme/hero-gameplay.jpg)](Docs/Videos/readme/Showcase_Dmytro_Preview.mp4)
+
+**[▶ Watch the 47-second two-client multiplayer demo](Docs/Videos/readme/Showcase_Dmytro_Preview.mp4)**
+
+Host and remote client each score in a live listen-server session, demonstrating server-authoritative scoring, replicated match state, synchronized HUD updates, celebration, and round reset.
 
 ## Highlights
 
